@@ -1,0 +1,8 @@
+node_modules/
+dist/
+android/
+ios/
+vite.config.ts
+commitlint.config.cjs
+commitlint.config.js
+capacitor.config.ts
