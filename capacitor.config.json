@@ -1,0 +1,10 @@
+{
+  "appId": "com.example.app",
+  "appName": "hybrid-app-boilerplate",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
