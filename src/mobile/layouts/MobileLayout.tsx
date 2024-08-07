@@ -7,8 +7,11 @@ import AppHeader from "@mobile/containers/AppHeader";
 import AppPaddingLeft from "@mobile/containers/AppPaddingLeft";
 import AppPaddingRight from "@mobile/containers/AppPaddingRight";
 import KeyboardPadding from "@mobile/containers/KeyboardPadding";
+import useMobileConfigs from "@mobile/hooks/useMobileConfigs";
 
 const MobileLayout = () => {
+  useMobileConfigs();
+
   return (
     <Row fullHeight>
       <AppPaddingLeft />

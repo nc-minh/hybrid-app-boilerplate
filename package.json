@@ -21,6 +21,7 @@
     "prepare": "husky",
     "precommit": "lint-staged",
     "build-android": "npm run build-mobile && npx cap sync android && npx cap open android",
+    "sync-android": "npm run build-mobile && npx cap sync android",
     "start-android": "npm run build-mobile && npx cap sync android && npx cap run android",
     "build-ios": "npm run build-mobile && npx cap sync ios && npx cap open ios",
     "start-ios": "npm run build-mobile && npx cap sync ios && npx cap run ios"
@@ -31,6 +32,7 @@
     "@capacitor/core": "^6.1.1",
     "@capacitor/ios": "^6.1.1",
     "@capacitor/keyboard": "^6.0.1",
+    "@capacitor/push-notifications": "^6.0.1",
     "@capacitor/screen-orientation": "^6.0.1",
     "@capacitor/splash-screen": "^6.0.1",
     "capacitor-plugin-safe-area": "^3.0.3",

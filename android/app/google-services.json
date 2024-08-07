@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "995542634079",
+    "project_id": "hybrid-app-boilerplate",
+    "storage_bucket": "hybrid-app-boilerplate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995542634079:android:6c6b7ac067c295ccb5d5ea",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb09gWs77BcF2cOEhaMz073COVAZJz1vM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
