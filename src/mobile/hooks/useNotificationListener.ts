@@ -1,12 +1,16 @@
 import { useEffect } from "react";
 
 import { PushNotifications } from "@capacitor/push-notifications";
+import { registerActionTypes } from "@mobile/utils/localNotification/registerActionTypes";
+import { createSoundNotiChannel } from "@mobile/utils/notification/createNotificationChannel";
 
 export default function useNotificationListener() {
   useEffect(() => {
     (async () => {
       await PushNotifications.addListener("registration", token => {
         console.log("Push registration success, token: " + token.value);
+        createSoundNotiChannel();
+        registerActionTypes();
       });
 
       await PushNotifications.addListener("registrationError", err => {
